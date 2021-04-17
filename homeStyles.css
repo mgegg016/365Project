@@ -7,7 +7,8 @@
     text-align: center;
 	border: 1px solid black;
 	border-width: 0 0 1px;
-	text-color: grey;
+	color: rgb(174,166,153);
+    font-size: large;
 }
 
 .tnav a{
@@ -20,5 +21,16 @@
 }
 
 .tnav a:visited{
-	color: grey;
+    color: grey;
+}
+
+body {
+    background-color: rgb(36,37,37);
+    font-family: abel;
+    color: rgb(174,166,153);
+}
+
+h1 {
+    font-size: 4em;
+    
 }

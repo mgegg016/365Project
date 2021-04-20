@@ -27,20 +27,3 @@ body {
     font-family: abel;
     color: rgb(174,166,153);
 }
-
-.header {
-    background-color: yellowgreen;
-    min-height: 61.8vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div span { font-size: 4em;
-    text-align: center;
-}
-
-div p {
-color: black;
-text-align: center;
-}

@@ -23,7 +23,8 @@
 }
 
 body {
-    background-color: rgb(36,37,37);
+    margin: 0;
+    background-color: white;
     font-family: abel;
     color: rgb(174,166,153);
 }
@@ -36,11 +37,22 @@ body {
     justify-content: center;
 }
 
-div span { font-size: 4em;
+div span { 
+    font-size: 4em;
     text-align: center;
 }
 
 div p {
-color: black;
-text-align: center;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: black;
+    text-align: center;
 }

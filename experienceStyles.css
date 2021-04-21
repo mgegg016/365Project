@@ -23,7 +23,18 @@
 }
 
 body {
-    background-color: rgb(36,37,37);
+    margin: 0;
+    background-color: white;
     font-family: abel;
     color: rgb(174,166,153);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: black;
+    text-align: center;
 }

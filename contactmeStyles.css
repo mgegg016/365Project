@@ -29,6 +29,29 @@ body {
     color: rgb(174,166,153);
 }
 
+#formstyle {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
 footer {
     position: absolute;
     bottom: 0;

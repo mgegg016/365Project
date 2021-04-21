@@ -34,7 +34,7 @@ body {
 
 .header {
     background-color: yellowgreen;
-    min-height: 61.8vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,6 +49,32 @@ div p {
     color: black;
     text-align: center;
 }
+
+#skills {
+    background-color: rgb(251, 237, 200);
+    min-height: 60vh;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+i {
+    font-size: 150px;
+    width: 25%;
+    padding: 20px;
+}
+
+.fa-html5 {color:rgb(221,75,37);}
+
+.fa-css3-alt {color: rgb(30,144,255);}
+
+.fa-js {color:rgb(237,215,24);}
+
+.fa-react {color: rgb(97,218,251);}
+
+.fa-php {color: rgb(119,123,179);}
+
+.fa-angular {color: rgb(214,3,47);}
 
 footer {
     margin-top: auto;

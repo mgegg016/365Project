@@ -22,3 +22,11 @@
 .tnav a:visited{
 	color: grey;
 }
+
+
+.firstWrap{
+    background-image: url(portrait.png), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(portrait.png), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(portrait.png), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(portrait.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%)
+}

@@ -93,9 +93,8 @@ footer {
 a i {
     font-size: 40px;
     width: fit-content;
-    padding: 10px;
-    padding-bottom: 15px;
+    padding: 0px 0px 10px 0px;
     border: none;
-    margin-right: 1em;
+    margin-right: 25px;
     color: rgb(174,166,153);
 }

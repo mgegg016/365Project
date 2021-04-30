@@ -1,3 +1,5 @@
+html{scroll-behavior: smooth;}
+
 .tnav{
     border-width: 1px 0;
     list-style: none;
@@ -40,11 +42,14 @@ body {
 }
 
 .header {
-    background-color: yellowgreen;
+    background-color: cadetblue;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('portrait.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 div span { 
@@ -83,13 +88,6 @@ i {
 
 .fa-angular {color: rgb(214,3,47);}
 
-footer {
-    margin-top: auto;
-    padding: 2rem;
-    background-color: black;
-    text-align: center;
-}
-
 a i {
     font-size: 40px;
     width: fit-content;
@@ -97,4 +95,41 @@ a i {
     border: none;
     margin-right: 25px;
     color: rgb(174,166,153);
+}
+
+#formstyle {
+    top: 10%;
+    left: 25%;
+    width: 40%;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 8px;
+    text-align: center;
+}
+
+.single-row {
+    width: 100%;
+}
+
+.single-column {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: auto;
+    padding: 2rem;
+    background-color: black;
+    text-align: center;
 }

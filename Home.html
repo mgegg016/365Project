@@ -12,14 +12,11 @@
 </head>
 <body>
 	<div class="tnav">
-		<a href="Home.html">HOME</a>
-	 	<a href="About_me.html">ABOUT ME</a>
-		<a href="Experience.html">EXPERIENCE</a>
-		<a href="Portfolio.html">PORTFOLIO</a>
-		<a href="Contact_me.html">CONTACT ME</a>
-	</div>
-	<div>
-		<img src = "portrait.png">
+		<a href="#header">HOME</a>
+	 	<a href="#skills">ABOUT ME</a>
+		<a href="#experience">EXPERIENCE</a>
+		<a href="#portfolio">PORTFOLIO</a>
+		<a href="#contact">CONTACT ME</a>
 	</div>
 	<div class ="header">
 		<div>
@@ -37,7 +34,29 @@
 		<i class="fab fa-php"></i>
 		<i class="fab fa-angular"></i>
 	</div>
-	<footer>
+	<div id="experience">
+	</div>
+	<div id="portfolio">
+	</div>
+	<div id="contact">
+		<div id="formstyle">
+        	<form method="GET">
+            	<h1>Let's Talk!</h1>
+				<div class="single-row">
+					<div class="single-column">
+            			<input type="text" name="name" id="name" placeholder="Name (required)" required> <br> <br>
+					</div>
+					<div class="single-column">
+            			<input type="email" name="email" id="email" placeholder="Email (required)" required> <br> <br>
+					</div>
+				</div>
+            	<input type="text" name="subject" id="subject" placeholder="Subject"> <br> <br>
+            	<textarea name="comments" id="comments" cols="45" rows="9" placeholder="How Can I Help You?" required></textarea> <br> <br>
+            	<button type="submit">Submit</button>
+        	</form>
+    	</div>
+	</div>
+	<footer id="footer">
 		<a href="https://github.com/github-john-doe"><i class="fab fa-github"></i></a>
 		<a href="https://www.linkedin.com/in/john-doe-203b7076/"><i class="fab fa-linkedin"></i></a>
 		<a href="https://twitter.com/johndoe?lang=en"><i class="fab fa-twitter-square"></i></a>

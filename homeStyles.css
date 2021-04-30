@@ -89,3 +89,13 @@ footer {
     background-color: black;
     text-align: center;
 }
+
+a i {
+    font-size: 40px;
+    width: fit-content;
+    padding: 10px;
+    padding-bottom: 15px;
+    border: none;
+    margin-right: 1em;
+    color: rgb(174,166,153);
+}

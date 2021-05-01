@@ -1,17 +1,18 @@
 html{scroll-behavior: smooth;}
 
-.tnav{
-    border-width: 1px 0;
-    list-style: none;
-    padding: 0 10px 0 10px;
-    text-align: center;
-	border: 1px solid black;
-	border-width: 0 0 1px;
-	color: rgb(174,166,153);
-    font-size: large;
+#tnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(174,166,153);
+    background-color:thistle;
+    transition: top 0.3s;
 }
 
-.tnav a{
+#tnav a{
     text-decoration: none;
     padding: 0 5px;
     font-family: abel;
@@ -20,7 +21,7 @@ html{scroll-behavior: smooth;}
     color: grey;
 }
 
-.tnav a:visited{
+#tnav a:visited{
     color: grey;
 }
 
@@ -41,7 +42,7 @@ body {
     color: rgb(174,166,153);
 }
 
-.header {
+#header {
     background-color: cadetblue;
     min-height: 100vh;
     display: flex;
@@ -115,6 +116,10 @@ i {
     text-align: center;
     padding: 10px;
     font-size: 30px;
+}
+
+#contact {
+    background-color: seagreen;
 }
 
 a i {

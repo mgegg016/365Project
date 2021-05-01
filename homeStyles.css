@@ -62,17 +62,29 @@ div p {
     text-align: center;
 }
 
-#skills {
+#about {
     background-color: rgb(251, 237, 200);
-    min-height: 60vh;
+    min-height: 100vh;
     text-align: center;
     padding: 10px;
     font-size: 30px;
 }
 
+#bio {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+figure { display: inline-block;
+    width: 12%;
+    margin-bottom: 1px;
+}
+
 i {
-    font-size: 150px;
-    width: 25%;
+    font-size: 100px;
     padding: 20px;
 }
 

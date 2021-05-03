@@ -67,8 +67,9 @@ div p {
     background-color: rgb(251, 237, 200);
     min-height: 1000px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
+	
 }
 
 #bio {
@@ -104,10 +105,11 @@ i {
 
 #experience {
     background-color: darkslateblue;
-    min-height: 1000px;
+    min-height: 650px;
     text-align: center;
     padding: 10px;
     font-size: 30px;
+	padding-top: 15px;
 }
 
 #portfolio {
@@ -119,7 +121,7 @@ i {
 }
 
 #contact {
-    background-color: seagreen;
+    background-color: darkslateblue;
 }
 
 a i {

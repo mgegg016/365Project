@@ -167,3 +167,34 @@ footer {
     background-color: black;
     text-align: center;
 }
+
+.section-break {
+  margin:50px;
+  height:500px;
+}
+
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+
+.column-1 {
+  width: 90%;
+  height: auto;
+  padding-top:70px;
+  padding-bottom:70px;
+  margin:auto;
+  margin-bottom:50px;
+  margin-top: 75px;
+
+}
+
+/* Table formatting */
+.table-style {
+  width:100%;
+  border-spacing: 24px;
+}
+

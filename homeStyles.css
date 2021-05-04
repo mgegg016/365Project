@@ -71,6 +71,7 @@ div p {
     text-align: center;
     padding: 15px;
     font-size: 30px;
+	color: darkslateblue;
 	
 }
 
@@ -116,6 +117,7 @@ i {
     padding: 10px;
     font-size: 30px;
 	padding-top: 15px;
+	
 }
 
 #exp-wrapper {
@@ -271,6 +273,32 @@ footer {
   border-spacing: 24px;
 }
 
+
+
+.resumebutton{
+	background-color: rgb(174,166,153);
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: darkslateblue;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	font-weight: bold;
+}
+
+.resumebutton:hover{
+	background-color: #8B847A;
+}
+
+.resumebutton:active{
+	background-color: #8B847A;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
 
 /*Image hover overlay stuffs*/
 

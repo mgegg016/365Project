@@ -289,6 +289,7 @@ footer {
 	box-shadow: 0 9px #999;
 	font-weight: bold;
 	transition: all 0.3s;
+	font-size: 8px;
 }
 
 .resumebutton:hover{

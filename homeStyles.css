@@ -21,8 +21,10 @@ html{scroll-behavior: smooth;}
     color: rgb(174,166,153)
 }
 
-#tnav a:visited{
-    color: rgb(174,166,153)
+#tnav a:hover{
+    color: lightblue;
+    border-style: none none solid none;
+    border-color: lightblue;
 }
 
 .firstWrap{
@@ -48,7 +50,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('portrait.png');
+    /*background-image: url('portrait.png'); */
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -125,10 +127,6 @@ i {
     padding-left: 25%;
 }
 
-.blue {
-    color: blue;
-}
-
 input[type="button"] {
     padding: 5px;
     font-size: 25px;
@@ -196,6 +194,10 @@ a i {
     border: none;
     margin-right: 25px;
     color: rgb(174,166,153);
+}
+
+a i:hover {
+    color: lightblue;
 }
 
 #formstyle {

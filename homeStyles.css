@@ -34,6 +34,13 @@ html{scroll-behavior: smooth;}
     background-image: url(portrait.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
 }
 
+
+.headerP{
+	color: rgb(174,166,153);
+	margin left: 100px;
+	padding-left: 500px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -46,7 +53,7 @@ body {
 
 #header {
     background-color: darkslateblue;
-    min-height: 100vh;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;

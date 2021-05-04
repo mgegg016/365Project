@@ -45,7 +45,7 @@ body {
 }
 
 #header {
-    background-color: cadetblue;
+    background-color: darkslateblue;
     min-height: 100vh;
     display: flex;
     align-items: center;

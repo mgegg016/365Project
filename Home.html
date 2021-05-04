@@ -67,30 +67,72 @@
 	</div>
 	<div id="experience">
 		<h1>Experience</h1>
-		<div class="column-1">
-  				<table class="table-style">
-    				<tr>
-						<td>Junior Developer</td>
-      					<td>Turbo Inc.</td>
-						<td>2005-2008</td>
-   					</tr>
-    				<tr>
-      					<td>Front End Developer</td>
-      					<td>Turbo Inc.</td>
-      					<td>2008-2011</td>
-   					</tr>
-   					<tr>
-      					<td>Full stack developer</td>
-      					<td>Facebook</td>
-      					<td>2011-2017</td>
-				   </tr>
-				   <tr>
-					  <td>Software Engineer</td>
-					  <td>Google</td>
-					  <td>2017-Present</td>
-				   </tr>
-  				</table>
- 			</div>
+		<div id="exp-wrapper">
+			<div class="btn-container">
+				<input type="button" onclick="toggle(this)" value="Google"> <br>
+				<input type="button" onclick="toggle(this)" value="Facebook"> <br>
+				<input type="button" onclick="toggle(this)" value="Turbo Inc."> <br>
+				<input type="button" onclick="toggle(this)" value="O'Reilly Auto Parts"> <br>
+			</div>
+			<div id= "job-container">
+				<article id="Google"> 
+					<p>
+						<h3>Senior Software Engineer</h3>
+						Google <br>
+						2017-Present
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+								incididunt ut labore et dolore magna aliqua.</li>
+							<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+								aliquip ex ea commodo consequat.</li>
+							<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+								 eu fugiat nulla pariatur.</li>
+						</ul>
+					</p>
+				</article>
+				<article id="Facebook">
+					<p>
+						<h3>Full Stack Developer</h3>
+						Facebook <br>
+						2011-2017
+						<ul>
+							<li>Habitant morbi tristique senectus et. Sed turpis tincidunt id aliquet risus feugiat in. 
+								Nisl nisi scelerisque eu ultrices vitae auctor eu.</li>
+							<li>Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras.</li>
+							<li>Porttitor leo a diam sollicitudin.</li>
+						</ul>
+					</p>
+				</article>
+				<article id="Turbo">
+					<p>
+						<h3>Front End Developer</h3>
+						Turbo Inc. <br>
+						2008-2011 <br>
+						<ul>
+							<li>Volutpat blandit aliquam etiam erat velit scelerisque in dictum non. Diam quam nulla 
+								porttitor massa id neque aliquam vestibulum.</li>
+							<li>Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Dictum fusce ut placerat 
+								orci nulla pellentesque dignissim enim.</li>
+							<li>Sollicitudin ac orci phasellus egestas tellus rutrum tellus.</li>
+						</ul>
+					</p>
+				</article>
+				<article id="Oreilly">
+					<p>
+						<h3>Junior Software Developer</h3>
+						O'Reilly Auto Parts <br>
+						2007-2008 <br>
+						<ul>
+							<li>Facilisi nullam vehicula ipsum a arcu cursus.</li>
+							<li>Nec tincidunt praesent semper feugiat. In fermentum posuere urna nec tincidunt praesent. 
+								Laoreet non curabitur gravida arcu ac tortor dignissim.</li>
+							<li>Tellus molestie nunc non blandit. Faucibus a pellentesque sit amet.</li>
+						</ul>
+					</p>
+				</article>
+				<script src="scripts/toggle.js"></script>
+			</div>
+		</div>
 	</div>
 	<div id="portfolio">
 		<h1>Portfolio</h1>

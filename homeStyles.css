@@ -105,11 +105,76 @@ i {
 
 #experience {
     background-color: darkslateblue;
-    min-height: 650px;
+    min-height: 700px;
     text-align: center;
     padding: 10px;
     font-size: 30px;
 	padding-top: 15px;
+}
+
+#exp-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 500px;
+    align-items: stretch;
+    margin-top: 50px;
+}
+
+.btn-container {
+    padding-top: 6%;
+    padding-left: 25%;
+}
+
+.blue {
+    color: blue;
+}
+
+input[type="button"] {
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background: none;
+    border-style: none;
+}
+
+input[type="button"]:hover {
+    color: lightblue;
+    border-style: none none none solid;
+    border-color: lightblue;
+}
+
+input[type="button"]:focus {
+    color: lightblue;
+    border-style: none none none solid;
+    border-color: lightblue;
+}
+
+#job-container {
+    text-align: left;
+}
+
+article h3 {
+    margin-bottom: 0px;
+}
+
+#Google {
+    display: block;
+    
+}
+
+#Facebook {
+    display: none;
+    
+}
+
+#Turbo {
+    display: none;
+    
+}
+
+#Oreilly {
+    display: none;
+   
 }
 
 #portfolio {
@@ -214,4 +279,3 @@ footer {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-

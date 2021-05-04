@@ -45,7 +45,7 @@ body {
 }
 
 #header {
-    background-color: cadetblue;
+    background-color: darkslateblue;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -290,6 +290,8 @@ footer {
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
 	font-weight: bold;
+	transition: all 0.3s;
+	font-size: 8px;
 }
 
 .resumebutton:hover{
@@ -301,6 +303,51 @@ footer {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
+
+.resumebutton span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.3s
+}
+
+.resumebutton span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -25px;
+	transition: 0.3s;
+}
+
+.resumebutton:hover span{
+	padding-right: 25px;
+}
+
+.resumebutton:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+
+
+.submitbutton{
+	background-color: darkslateblue;
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: rgb(174,166,153);
+	border: none;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+
+
 
 /*Image hover overlay stuffs*/
 

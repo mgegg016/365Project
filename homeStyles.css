@@ -199,7 +199,7 @@ article h3 {
     background-color: rgb(251, 237, 200);
     min-height: 120vh;
     text-align: center;
-    padding: 15px;
+    padding: 0px;
     font-size: 30px;
 	width: 100%;
 }
@@ -374,7 +374,7 @@ a i:hover {
 
 .bottomMiddle{
 	width: 50%;
-	height: 0%;
+	height: 50%;
 	margin: 0 auto;
 	padding: 10px;
 	position: relative;
@@ -383,12 +383,12 @@ a i:hover {
 }
 
 .topRight{
-	width: 50%;
-	height: 50%;
-	padding: 10px; 
-	float: right;
-	right: 0px;
-	position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    float: right;
+    right: 62px;
+    position: absolute;
 }
 
 .topLeft{
@@ -442,6 +442,3 @@ a i:hover {
 	transform: translate(-50%, -50%);
   	text-align: center;
 }
-
-
-

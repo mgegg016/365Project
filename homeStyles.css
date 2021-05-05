@@ -372,6 +372,12 @@ a i:hover {
 
 /*Image hover overlay stuffs*/
 
+.bigContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .bottomMiddle{
 	width: 50%;
 	height: 50%;
@@ -379,6 +385,7 @@ a i:hover {
 	padding: 10px;
 	position: relative;
 	top: 43%;
+	left: 100px;
 	align-content: center;
 }
 
@@ -387,7 +394,8 @@ a i:hover {
     height: 50%;
     padding: 10px;
     float: right;
-    right: 62px;
+	margin-left: auto;
+    right: -120px;
     position: absolute;
 }
 
@@ -395,6 +403,7 @@ a i:hover {
 	width: 50%;
 	height: 50%;
 	float: left;
+	left: 0px;
 	margin-left: 50px; 
 	padding: 10px;
 	position: absolute;
@@ -428,12 +437,12 @@ a i:hover {
 }
 
 .containerOverlay:hover .overlay2{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .textOverlay{
     color: rgb(174,166,153);
-  	font-size: 20px;
+  	font-size: 30px;
   	top: 50%;
   	left: 50%;
   	position: absolute;

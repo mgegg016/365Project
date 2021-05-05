@@ -4,11 +4,13 @@ html{scroll-behavior: smooth;}
     position: fixed;
     top: 0;
     width: 100%;
+    height: 3vh;
+    line-height: 3vh;
     display: block;
     text-align: right;
     font-size: 20px;
     color: rgb(174,166,153);
-    background-color:darkslateblue;
+    background-color: rgb(69, 58, 139);
     transition: top 0.3s;
 }
 
@@ -18,13 +20,15 @@ html{scroll-behavior: smooth;}
     font-family: abel;
     font-weight: 400;
     font-style: normal;
-    color: rgb(174,166,153)
+    color: rgb(174,166,153);
+    transition: 0.3s;
 }
 
 #tnav a:hover{
     color: lightblue;
     border-style: none none solid none;
     border-color: lightblue;
+    padding-bottom: 3px;
 }
 
 .firstWrap{
@@ -51,13 +55,13 @@ body {
     color: rgb(174,166,153);
 }
 
+/* Header */
 #header {
     background-color: darkslateblue;
     min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-image: url('portrait.png'); */
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -72,14 +76,14 @@ div p {
     text-align: center;
 }
 
+/* About Me */
 #about {
     background-color: rgb(251, 237, 200);
     min-height: 1000px;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     font-size: 30px;
 	color: darkslateblue;
-	
 }
 
 #bio {
@@ -117,20 +121,19 @@ i {
 
 .fa-angular {color: rgb(214,3,47);}
 
+/* Experience */
 #experience {
     background-color: darkslateblue;
-    min-height: 700px;
+    height: 800px;
     text-align: center;
-    padding: 10px;
+    padding: 15px 10px 10px 10px;
     font-size: 30px;
-	padding-top: 15px;
-	
 }
 
 #exp-wrapper {
     display: grid;
     grid-template-columns: 40% 60%;
-    height: 500px;
+    height: inherit;
     align-items: stretch;
     margin-top: 50px;
 }
@@ -138,7 +141,7 @@ i {
 .btn-container {
     text-align: left;
     padding-top: 6%;
-    padding-left: 25%;
+    padding-left: 40%;
 }
 
 input[type="button"] {
@@ -148,6 +151,7 @@ input[type="button"] {
     background: none;
     border-style: none none none solid;
     padding-left: 20px;
+    transition: 0.3s;
 }
 
 input[type="button"]:hover {
@@ -190,6 +194,7 @@ article h3 {
    
 }
 
+/* Portfolio */
 #portfolio {
     background-color: lemonchiffon;
     min-height: 100vh;
@@ -198,32 +203,21 @@ article h3 {
     font-size: 30px;
 }
 
+/* Contact */
 #contact {
+    height: 800px;
     background-color: darkslateblue;
-}
-
-a i {
-    font-size: 40px;
-    width: fit-content;
-    padding: 0px 0px 10px 0px;
-    border: none;
-    margin-right: 25px;
-    color: rgb(174,166,153);
-}
-
-a i:hover {
-    color: lightblue;
 }
 
 #formstyle {
     top: 10%;
     left: 25%;
     width: 40%;
-	background: #f4f7f8;
 	margin: 10px auto;
 	padding: 20px;
 	border-radius: 8px;
     text-align: center;
+    font-size: 30px;
 }
 
 .single-row {
@@ -243,6 +237,7 @@ textarea {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border: solid 2px;
 }
 
 footer {
@@ -250,6 +245,20 @@ footer {
     padding: 2rem;
     background-color: black;
     text-align: center;
+}
+
+a i {
+    font-size: 40px;
+    width: fit-content;
+    padding: 0px 0px 10px 0px;
+    border: none;
+    margin-right: 25px;
+    color: rgb(174,166,153);
+    transition: 0.5s;
+}
+
+a i:hover {
+    color: lightblue;
 }
 
 .section-break {
@@ -281,8 +290,6 @@ footer {
   width:100%;
   border-spacing: 24px;
 }
-
-
 
 .resumebutton{
 	background-color: rgb(174,166,153);
@@ -336,17 +343,15 @@ footer {
 	right: 0;
 }
 
-
 .submitbutton{
-	background-color: darkslateblue;
+	background-color: lemonchiffon;
 	display: inline-block;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
 	outline: none;
-	
 	cursor: pointer;
-	color: rgb(174,166,153);
+	color: darkslateblue;
 	border: none;
 	border-radius: 15px;
 	font-weight: bold;
@@ -354,13 +359,7 @@ footer {
 
 }
 
-
-
-
-
 /*Image hover overlay stuffs*/
-
-
 .containerOverlay{
 	position: relative;
 	width: 50%;

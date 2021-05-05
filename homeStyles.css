@@ -196,7 +196,7 @@ article h3 {
 
 /* Portfolio */
 #portfolio {
-    background-color: lemonchiffon;
+    background-color: rgb(251, 237, 200);
     min-height: 100vh;
     text-align: center;
     padding: 10px;
@@ -233,11 +233,22 @@ article h3 {
 input[type=text],
 input[type=email],
 textarea {
+    font-family: abel;
+    font-size: 20px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: solid 2px;
+    transition: 0.5s;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    outline: none;
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
 }
 
 footer {
@@ -355,8 +366,7 @@ a i:hover {
 	border: none;
 	border-radius: 15px;
 	font-weight: bold;
-	font-size: 15px;
-
+	font-size: 20px;
 }
 
 /*Image hover overlay stuffs*/

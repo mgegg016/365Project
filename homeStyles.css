@@ -344,6 +344,7 @@ footer {
 	text-align: center;
 	text-decoration: none;
 	outline: none;
+	
 	cursor: pointer;
 	color: rgb(174,166,153);
 	border: none;
@@ -356,16 +357,52 @@ footer {
 
 
 
+
 /*Image hover overlay stuffs*/
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+
+.containerOverlay{
+	position: relative;
+	width: 50%;
 }
+
+.imageOverlay{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay2{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.7s ease;
+	background-color: darkslateblue;
+	
+}
+
+.textOverlay {
+  	color: rgb(174,166,153);
+  	font-size: 20px;
+  	top: 50%;
+  	left: 50%;
+  	position: absolute;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.containerOverlay:hover .overlay2{
+    opacity: 0.7;
+}
+
+
+
+
+

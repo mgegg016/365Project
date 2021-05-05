@@ -197,7 +197,7 @@ article h3 {
 /* Portfolio */
 #portfolio {
     background-color: rgb(251, 237, 200);
-    min-height: 100vh;
+    min-height: 120vh;
     text-align: center;
     padding: 15px;
     font-size: 30px;
@@ -372,15 +372,44 @@ a i:hover {
 
 /*Image hover overlay stuffs*/
 
+.bottomMiddle{
+	width: 50%;
+	height: 0%;
+	margin: 0 auto;
+	padding: 10px;
+	position: absolute;
+	top: 40%;
+}
+
+.topRight{
+	width: 50%;
+	height: 50%;
+	float: right;
+	padding: 10px;
+	left: 800px;
+	right: 0px;
+	position: absolute;
+}
+
+.topLeft{
+	width: 50%;
+	height: 50%;
+	left: 20px;
+	padding: 10px;
+	position: absolute;
+	padding-left: 35px;
+}
+
 .containerOverlay{
 	position: relative;
-	width: 60%;
+	width: 80%;
 }
 
 .imageOverlay{
-	display: grid;
-	width: 60%;
+	display: block;
+	width: 100%;
 	height: auto;
+	object-fit: cover;
 }
 
 .overlay2 {
@@ -390,7 +419,7 @@ a i:hover {
 	left: 0;
 	right: 0;
 	height: 100%;
-	width: 60%;
+	width: 100%;
 	opacity: 0;
 	transition: 0.4s;
 	background-color: darkslateblue;

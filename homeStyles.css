@@ -199,8 +199,9 @@ article h3 {
     background-color: rgb(251, 237, 200);
     min-height: 100vh;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
+	width: 100%;
 }
 
 /* Contact */
@@ -370,13 +371,14 @@ a i:hover {
 }
 
 /*Image hover overlay stuffs*/
+
 .containerOverlay{
 	position: relative;
-	width: 50%;
+	width: 60%;
 }
 
 .imageOverlay{
-	display: block;
+	display: grid;
 	width: 60%;
 	height: auto;
 }
@@ -390,12 +392,13 @@ a i:hover {
 	height: 100%;
 	width: 60%;
 	opacity: 0;
-	transition: 0.7s ease;
+	transition: 0.4s;
 	background-color: darkslateblue;
+
 }
 
 .containerOverlay:hover .overlay2{
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .textOverlay{

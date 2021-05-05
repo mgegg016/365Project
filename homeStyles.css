@@ -377,16 +377,16 @@ a i:hover {
 	height: 0%;
 	margin: 0 auto;
 	padding: 10px;
-	position: absolute;
-	top: 40%;
+	position: relative;
+	top: 43%;
+	align-content: center;
 }
 
 .topRight{
 	width: 50%;
 	height: 50%;
+	padding: 10px; 
 	float: right;
-	padding: 10px;
-	left: 800px;
 	right: 0px;
 	position: absolute;
 }
@@ -394,7 +394,8 @@ a i:hover {
 .topLeft{
 	width: 50%;
 	height: 50%;
-	left: 20px;
+	float: left;
+	margin-left: 50px; 
 	padding: 10px;
 	position: absolute;
 	padding-left: 35px;

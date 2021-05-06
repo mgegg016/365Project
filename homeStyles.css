@@ -9,7 +9,7 @@ html{scroll-behavior: smooth;}
     display: block;
     text-align: right;
     font-size: 20px;
-    color: rgb(174,166,153);
+    color: #fffacd;
     background-color: rgb(69, 58, 139);
     transition: top 0.3s;
 	z-index: 99;
@@ -21,7 +21,7 @@ html{scroll-behavior: smooth;}
     font-family: abel;
     font-weight: 400;
     font-style: normal;
-    color: rgb(174,166,153);
+    color: #fffacd;
     transition: 0.3s;
 }
 
@@ -41,7 +41,7 @@ html{scroll-behavior: smooth;}
 
 
 .headerP{
-	color: rgb(174,166,153);
+	color: #fffacd;
 
 	padding-left: 500px;
 }
@@ -53,7 +53,7 @@ body {
     margin: 0;
     background-color: white;
     font-family: abel;
-    color: rgb(174,166,153);
+    color: #fffacd;
 }
 
 /* Header */
@@ -129,6 +129,7 @@ i {
     text-align: center;
     padding: 15px 10px 10px 10px;
     font-size: 30px;
+	color: rgb(251, 237, 200);
 }
 
 #exp-wrapper {
@@ -305,7 +306,7 @@ a i:hover {
 }
 
 .resumebutton{
-	background-color: rgb(174,166,153);
+	background-color: rgb(251, 237, 200);
 	display: inline-block;
 	padding: 10px 20px;
 	text-align: center;
@@ -322,11 +323,11 @@ a i:hover {
 }
 
 .resumebutton:hover{
-	background-color: #8B847A;
+	background-color: #DFDAB2;
 }
 
 .resumebutton:active{
-	background-color: #8B847A;
+	background-color: #D8D4AD;
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
@@ -442,7 +443,7 @@ a i:hover {
 }
 
 .textOverlay{
-    color: rgb(174,166,153);
+    color: #fffacd;
   	font-size: 30px;
   	top: 50%;
   	left: 50%;

@@ -12,6 +12,7 @@ html{scroll-behavior: smooth;}
     color: rgb(174,166,153);
     background-color: rgb(69, 58, 139);
     transition: top 0.3s;
+	z-index: 99;
 }
 
 #tnav a{

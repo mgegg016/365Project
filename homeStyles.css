@@ -82,13 +82,32 @@ body {
 
 @media (max-width: 480px) {
     #header {
-        min-height: 1000px;
+        min-height: 800px;
     }
 }
 
 div span { 
     font-size: 4em;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    div span {
+        position: relative;
+        top: 80px;
+    }
+}
+
+#headcap{
+    color: lemonchiffon;
+    font-size: 20px;
+}
+
+@media (max-width: 480px) {
+    #headcap {
+        position: relative;
+        top: 90px;
+    }
 }
 
 div p {
@@ -103,9 +122,10 @@ div p {
 @media (max-width: 480px) {
     #portrait {
         position: absolute;
-        top: 150px;
+        top: 120px;
         right: 40px;
-        width: 250px
+        width: 250px;
+        margin-bottom: 0;
     }
 }
 

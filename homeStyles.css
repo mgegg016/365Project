@@ -139,6 +139,12 @@ div p {
 	color: darkslateblue;
 }
 
+@media (max-width: 480px) {
+    #about {
+        min-height: 850px;
+    }
+}
+
 #bio {
     display: flex;
     justify-content: center;
@@ -360,6 +366,12 @@ article h3 {
 	width: 100%;
 }
 
+@media (max-width: 480px) {
+    #portfolio {
+        min-height: 800px;
+    }
+}
+
 /* Contact */
 #contact {
     height: 800px;
@@ -563,6 +575,17 @@ a i:hover {
 	align-content: center;
 }
 
+@media (max-width: 480px) {
+    .bottomMiddle {
+        position: relative;
+        top: 200px;
+        left: 80px;
+        height: 150px;
+        width: 300px;
+        margin-left: 0;
+    }
+}
+
 .topRight{
     width: 50%;
     height: 50%;
@@ -570,6 +593,17 @@ a i:hover {
 	margin-left: auto;
     right: 0px;
     position: absolute;
+}
+
+@media (max-width: 480px) {
+    .topRight {
+        position: relative;
+        top: 180px;
+        left: 80px;
+        height: 150px;
+        width: 300px;
+        margin-left: 0;
+    }
 }
 
 .topLeft{
@@ -583,9 +617,25 @@ a i:hover {
 	padding-left: 35px;
 }
 
+@media (max-width: 480px) {
+    .topLeft {
+        left: 91px;
+        height: 150px;
+        width: 300px;
+        padding: 0;
+        margin-left: 0;
+    }
+}
+
 .containerOverlay{
 	position: relative;
 	width: 80%;
+}
+
+@media (max-width: 480px) {
+    .containerOverlay {
+        width: 80%;
+    }
 }
 
 .imageOverlay{
@@ -593,6 +643,12 @@ a i:hover {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .imageOverlay {
+        display: flex;
+    }
 }
 
 .overlay2 {
@@ -606,7 +662,13 @@ a i:hover {
 	opacity: 0;
 	transition: 0.4s;
 	background-color: darkslateblue;
+}
 
+@media (max-width: 480px) {
+    .overlay2 {
+        height: 145px;
+        width: 240px;
+    }
 }
 
 .containerOverlay:hover .overlay2{
@@ -623,4 +685,10 @@ a i:hover {
   	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
   	text-align: center;
+}
+
+@media (max-width: 480px) {
+    .textOverlay {
+        font-size: 12px;
+    }
 }

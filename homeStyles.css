@@ -1,5 +1,11 @@
 html{scroll-behavior: smooth;}
 
+
+
+
+
+
+
 #tnav{
     position: fixed;
     top: 0;
@@ -42,7 +48,6 @@ html{scroll-behavior: smooth;}
 
 .headerP{
 	color: #fffacd;
-
 	padding-left: 500px;
 }
 
@@ -201,7 +206,6 @@ article h3 {
     background-color: rgb(251, 237, 200);
     min-height: 120vh;
     text-align: center;
-    padding: 0px;
     font-size: 30px;
 	width: 100%;
 }
@@ -259,6 +263,7 @@ footer {
     padding: 2rem;
     background-color: black;
     text-align: center;
+	color: #fffacd;
 }
 
 a i {
@@ -387,7 +392,7 @@ a i:hover {
 	padding: 10px;
 	position: relative;
 	top: 43%;
-	left: 100px;
+	left: 80px;
 	align-content: center;
 }
 
@@ -395,9 +400,8 @@ a i:hover {
     width: 50%;
     height: 50%;
     padding: 10px;
-    float: right;
 	margin-left: auto;
-    right: -120px;
+    right: 0px;
     position: absolute;
 }
 
@@ -406,7 +410,7 @@ a i:hover {
 	height: 50%;
 	float: left;
 	left: 0px;
-	margin-left: 50px; 
+	margin-left: 100px; 
 	padding: 10px;
 	position: absolute;
 	padding-left: 35px;

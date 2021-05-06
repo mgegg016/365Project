@@ -195,6 +195,7 @@ i {
 
 @media (max-width: 480px) {
     #experience {
+        height: 600px;
         font-size: 15px;
     }
 }
@@ -227,7 +228,10 @@ i {
 
 @media (max-width: 480px) {
     .btn-container {
+        position: relative;
+        bottom: 30px;
         height: 50px;
+        padding-top: 0;
         padding-left: 1px;
     }
 }
@@ -247,7 +251,12 @@ input[type="button"] {
 @media (max-width: 480px) {
     input[type="button"] {
         font-size: 13px;
+        padding-left: 0;
+        margin-right: 12px;
+        margin-left: 10px;
         display: inline-block;
+        border: 1px lightblue;
+        border-style: none none solid none;
     }
 }
 
@@ -266,7 +275,12 @@ input[type="button"]:focus {
 }
 
 @media (max-width: 480px) {
-    input[type="button"]:focus {
+    input[type="button"]:hover {
+        color: darkslateblue;
+        border-style: none;
+        background-color: lightblue;
+        padding: 15px;
+        border-radius: 10px;
     }
 }
 
@@ -282,7 +296,7 @@ article h3 {
     article {
         margin-top: 0;
         position: relative;
-        bottom: 160px;
+        bottom: 140px;
     }
 }
 
@@ -430,6 +444,16 @@ a i:hover {
 	font-weight: bold;
 	transition: all 0.3s;
 	font-size: 6px;
+}
+
+@media (max-width: 480px) {
+    .resumebutton {
+        margin-top: 0;
+        position: relative;
+        bottom: 100px;
+        left: 150px;
+        font-size: 3px;
+    }
 }
 
 .resumebutton:hover{

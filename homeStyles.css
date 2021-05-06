@@ -17,7 +17,7 @@ html{scroll-behavior: smooth;}
 
 #tnav a{
     text-decoration: none;
-    padding: 0 5px;
+    padding: 0 15px;
     font-family: abel;
     font-weight: 400;
     font-style: normal;
@@ -71,6 +71,7 @@ body {
     justify-content: center;
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
 }
 
 div span { 
@@ -81,6 +82,10 @@ div span {
 div p {
     color: black;
     text-align: center;
+}
+
+#portrait {
+    margin-right: 50px;
 }
 
 /* About Me */

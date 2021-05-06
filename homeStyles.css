@@ -1,11 +1,5 @@
 html{scroll-behavior: smooth;}
 
-
-
-
-
-
-
 #tnav{
     position: fixed;
     top: 0;
@@ -375,6 +369,10 @@ a i:hover {
 	border-radius: 15px;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+.submitbutton:hover {
+    background-color: #DFDAB2;
 }
 
 /*Image hover overlay stuffs*/

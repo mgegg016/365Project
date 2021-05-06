@@ -480,10 +480,13 @@ a i:hover {
 	border-radius: 15px;
 	font-weight: bold;
 	font-size: 20px;
+    transition: ease-in-out 0.3s;
 }
 
 .submitbutton:hover {
-    background-color: #DFDAB2;
+    background-color: transparent;
+    color: lemonchiffon;
+    border: solid lemonchiffon;
 }
 
 /*Image hover overlay stuffs*/

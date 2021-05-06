@@ -92,7 +92,7 @@ div span {
 }
 
 @media (max-width: 480px) {
-    div span {
+    #headmain {
         position: relative;
         top: 80px;
     }

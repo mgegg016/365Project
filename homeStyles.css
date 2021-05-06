@@ -39,17 +39,23 @@ html{scroll-behavior: smooth;}
     width: 80px;
 }
 
-.firstWrap{
-    background-image: url(portrait.png), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
-    background-image: url(portrait.png), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
-    background-image: url(portrait.png), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
-    background-image: url(portrait.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+@media (max-width: 480px) {
+    #tnav {
+        font-size: 15px;
+    }
 }
 
+@media (max-width: 480px) {
+    #tnav a {
+        padding: 5px;
+    }
+}
 
-.headerP{
-	color: #fffacd;
-	padding-left: 500px;
+@media (max-width: 480px) {
+    #symbol {
+        left: 0px;
+        width: 70px;
+    }
 }
 
 body {
@@ -74,6 +80,12 @@ body {
     text-align: center;
 }
 
+@media (max-width: 480px) {
+    #header {
+        min-height: 1000px;
+    }
+}
+
 div span { 
     font-size: 4em;
     text-align: center;
@@ -86,6 +98,15 @@ div p {
 
 #portrait {
     margin-right: 50px;
+}
+
+@media (max-width: 480px) {
+    #portrait {
+        position: absolute;
+        top: 150px;
+        right: 40px;
+        width: 250px
+    }
 }
 
 /* About Me */
@@ -132,6 +153,35 @@ i {
 .fa-php {color: rgb(119,123,179);}
 
 .fa-angular {color: rgb(214,3,47);}
+
+@media (max-width: 480px) {
+    figure {
+        width: 7%;
+        float: left;
+    }
+}
+
+@media (max-width: 480px) {
+    #ah3 {
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    i {
+        font-size: 60px;
+        align-items: center;
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    figcaption {
+        width: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
 
 /* Experience */
 #experience {

@@ -18,6 +18,16 @@ Firefox Daylight (Version 33.1)
 
 Safari (Version 14.0) 
 
+# Screenshots
+<p float="left">
+  <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Header.JPG" height="600">
+  <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/About-Me.JPG" height="600">
+  <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Experience.JPG" height="600">
+ </p>
+ <p float="left">
+  <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Portfolio.JPG" height="600">
+  <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Contact-Me.JPG" height="600">
+ </p>
 # Inspiration
 
 https://kristianwindsor.com/

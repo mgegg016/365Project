@@ -378,6 +378,12 @@ article h3 {
     background-color: darkslateblue;
 }
 
+@media (max-width: 480px) {
+    form h1 {
+        font-size: 37px;
+    }
+}
+
 #formstyle {
     top: 10%;
     left: 25%;
@@ -387,6 +393,12 @@ article h3 {
 	border-radius: 8px;
     text-align: center;
     font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    #formstyle {
+        width: 350px;
+    }
 }
 
 .single-row {
@@ -410,6 +422,14 @@ textarea {
     box-sizing: border-box;
     border: solid 2px;
     transition: 0.5s;
+}
+
+@media (max-width: 480px) {
+    input[type=text],
+    input[type=email],
+    textarea {
+        font-size: 15px;
+    }
 }
 
 input[type=text]:focus,
@@ -548,6 +568,14 @@ a i:hover {
 	font-weight: bold;
 	font-size: 20px;
     transition: ease-in-out 0.3s;
+}
+
+@media (max-width: 480px) {
+    .submitbutton {
+        position: relative;
+        bottom: 20px;
+        font-size: 15px
+    }
 }
 
 .submitbutton:hover {

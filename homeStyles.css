@@ -429,6 +429,7 @@ textarea {
     input[type=email],
     textarea {
         font-size: 15px;
+        margin: 0;
     }
 }
 

@@ -26,6 +26,7 @@ Safari (Version 14.0)
   <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Portfolio.JPG" height="600">
   <img src="https://github.com/mgegg016/365Project/blob/main/Mobile%20Screenshots/Contact-Me.JPG" height="600">
  </p>
+ 
 # Inspiration
 
 https://kristianwindsor.com/
